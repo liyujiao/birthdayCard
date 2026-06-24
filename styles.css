@@ -60,30 +60,39 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
+
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 #gift-img-happy:hover,
-#gift-img-happy:active {
+#gift-img-happy:active,
+#gift-img-happy:focus {
     background-image: url("images/happy.gif");
 }
 
 #gift-img-hot:hover,
-#gift-img-hot:active {
+#gift-img-hot:active,
+#gift-img-hot:focus {
     background-image: url("images/hot.gif");
 }
 
 #gift-img-genius:hover,
-#gift-img-genius:active {
+#gift-img-genius:active,
+#gift-img-genius:focus {
     background-image: url("images/genius.gif");
 }
 
 #gift-img-badass:hover,
-#gift-img-badass:active  {
+#gift-img-badass:active,
+#gift-img-badass:focus  {
     background-image: url("images/badass.gif");
 }
 
 #gift-img-cheers:hover,
-#gift-img-cheers:active  {
+#gift-img-cheers:active,
+#gift-img-cheers:focus{
     background-image: url("images/cheers.gif");
 }
 
